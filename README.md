@@ -14,7 +14,7 @@ Repositório de estudos e atividades efetuados durante o curso de Ciência da Co
 * ### Criação de Aplicações e Sistemas
 
 Introdução à lógica de programação, tipos de dado, estruturas, procedimentos e funções.  
-Java báisco.
+Java.
 
 ## 2º Período
 
