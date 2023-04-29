@@ -2,33 +2,41 @@
 
 Repositório de estudos e atividades efetuados durante o curso de Ciência da Computação da faculdade Descomplica.
 
-> Iniciado em outubro de 2022.
->
+> Iniciado em Outubro de 2022.  
 > Término previsto para Setembro de 2026.
 
 ***
 
-❗ **Serão listados apenas as máterias que tiverem atividades práticas.**
+## ⚪ 1A - Arquitetura e Organização de Computadores
 
 ***
 
-## ⚪ 1º Período
+* ### Arquitetura de Computadores do Século XXI
+
+* ### Coaching e Planejamento de Carreira
+
+* ### Comunicação Empresarial
 
 ***
 
-* ### Criação de Aplicações e Sistemas
-
-Introdução à lógica de programação, tipos de dado, estruturas, procedimentos e funções.  
-Java.
-
-## ⚪ 2º Período
+## ⚪ 1B - Programming Basics
 
 ***
 
-## ⚪ 3º Período
+* ### Análise e Levantamento de Requisitos de Software
+
+* ### Criação de Aplicações e Sistemas - [link](.)
 
 ***
 
-## ⚪ 4º Período
+## ⚪ 2A - Object-Oriented Developer
 
 ***
+
+## ⚪ 2B - DB Developer
+
+***
+
+* ### Desenvolvimento de Aplicações de Bancos de Dados - [link](.)
+
+* ### Prática Integradora Desenvolvimento de Software - [link](.)

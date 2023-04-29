@@ -1,0 +1,45 @@
+body {
+    background-color: #2F455C;
+    font-family: 'Inter', sans-serif;
+    color: #1DCDFE;
+}
+
+header, main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+section {
+    margin: 0 auto;
+}
+
+.caixa {
+    background-color: rgb(0 0 0 / 5%);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0 rgb(0 0 0 / 50%);
+    display: inline-block;
+    margin: 30px;
+    padding: 20px;
+    vertical-align: top;
+    width: 300px;
+}
+
+.caixa p {
+    color: #34F5C5;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.caixa .desc {
+    color: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: justify;
+}
