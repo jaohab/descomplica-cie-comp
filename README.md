@@ -25,7 +25,7 @@ Repositório de estudos e atividades efetuados durante o curso de Ciência da Co
 
 * ### Análise e Levantamento de Requisitos de Software
 
-* ### Criação de Aplicações e Sistemas - [link](.)
+* ### Criação de Aplicações e Sistemas - [link](https://github.com/jaohab/descomplica-cie-comp/tree/main/src/descomplica/1B/criacaoAplicacoesSistemas)
 
 ***
 
@@ -37,6 +37,6 @@ Repositório de estudos e atividades efetuados durante o curso de Ciência da Co
 
 ***
 
-* ### Desenvolvimento de Aplicações de Bancos de Dados - [link](.)
+* ### Desenvolvimento de Aplicações de Bancos de Dados  [link](https://github.com/jaohab/descomplica-cie-comp/tree/main/src/descomplica/2B/desenvolvimentoAplica%C3%A7%C3%B5esBancosDados)
 
-* ### Prática Integradora Desenvolvimento de Software - [link](.)
+* ### Prática Integradora Desenvolvimento de Software - [link](https://github.com/jaohab/descomplica-cie-comp/tree/main/src/descomplica/2B/praticaIntegradoraDesenvolvimentoDeSoftware)

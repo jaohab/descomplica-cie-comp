@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos do DOM - 2</title>
+</head>
+
+<body>
+    <button onclick="confirma()">Continuar</button>
+</body>
+
+<script>
+    function confirma() {
+        let confirmacao = confirm('Você deseja contiuar?')
+        if (confirmacao) {
+            alert('Operação continua')
+        } else {
+            alert('Operação encerrada')
+        }
+    }
+</script>
+
+</html>

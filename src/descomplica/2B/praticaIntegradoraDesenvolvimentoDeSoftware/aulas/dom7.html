@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos do DOM - 7</title>
+</head>
+
+<body>
+    <form>
+        <label>E-mail</label>
+        <input type="email" id="email" />
+
+        <label>Nome</label>
+        <input type="text" id="nome" />
+
+        <button type="submit" onclick="novoItem()">Cadastrar</button>
+    </form>
+
+</body>
+
+<script>
+    function novoItem() {
+        var campoEmail = document.getElementById('email');
+        var campoNome = document.getElementById('nome');
+
+        alert('Seu nome é: ' + campoNome.value);
+
+    }
+</script>
+
+</html>

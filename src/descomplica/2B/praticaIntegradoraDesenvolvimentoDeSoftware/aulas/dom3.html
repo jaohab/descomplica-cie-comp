@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos do DOM - 3</title>
+</head>
+
+<body>
+    <h1>Usando seletor de DOM</h1>
+    <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>NodeJS</li>
+    </ul>
+
+    <div id="conteudo" name="divConteudo" class="mensagem">
+    </div>
+
+    <div name="divConteudo" class="mensagem">
+    </div>
+
+    <div name="divConteudo" class="mensagem">
+    </div>
+
+    <span id="novoSpan" class="novo">
+        Texto no span
+    </span>
+
+    <div class="mensagem">
+    </div>
+
+</body>
+
+<script>
+    elemento0 = document.getElementsByTagName('li')[0];
+    elemento0.style.color = 'blue'
+
+    elemento1 = document.getElementsByTagName('li')[1];
+    elemento1.style.background = 'red'
+
+    elemento2 = document.getElementsByTagName('li')[2];
+    elemento2.innerText = 'SpringBoot'
+
+    elementoDiv = document.getElementById('conteudo');
+    elementoDiv.innerHTML = '<p>Texto inserido via JS.</p>'
+
+    elementoDivName = document.getElementsByName('divConteudo')[1];
+    elementoDivName.style.color = 'blue'
+    elementoDivName.innerText = 'Outro texto.'
+
+    elementoDivClass = document.getElementsByClassName('mensagem')[2];
+    elementoDivClass.innerHTML = '<p>Texto inserido via JS 2.</p>'
+
+    elementoSpanClass = document.querySelector('span.novo');
+    elementoSpanClass.style.color = 'yellow'
+
+    elementoSeletor = document.querySelectorAll('.mensagem')[3];
+    elementoSeletor.innerHTML = "<p>Novo texto</p>"
+
+</script>
+
+</html>
