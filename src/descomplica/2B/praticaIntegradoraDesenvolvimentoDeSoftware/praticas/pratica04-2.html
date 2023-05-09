@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática - 04 - Matrizes em JavaScript</title>
+</head>
+
+<style>
+    body {
+        text-align: center;
+    }
+
+    table {
+        margin: 0 auto;
+    }
+
+    td {
+        border: 1px solid;
+        padding: 8px 12px;
+    }
+
+</style>
+
+<body>
+
+    <h1>Atividade Prática - 04 - Matrizes em JavaScript</h1>
+
+    <p>Diferente da atividade original que os número são predefinidos, fiz uma atribuição aleatória, seguindo a regra de que:<br>na primeira linha são múltiplos de 2;<br>na segunda linha são múltiplos de 3;<br>na terceira linha são múltiplos de 4 e;<br> na quarta linha são múltiplosde 5.</p>
+
+    <div>
+        <h2>Matriz</h2>
+        <div id="tabela"></div>
+    </div>
+    
+</body>
+
+<script>
+    var linhas = 4;
+    var colunas = 5;
+    var matriz = [];
+
+    var tabela = document.getElementById('tabela');
+    var str = '<table>';
+
+    for (let i = 0; i < linhas; i++) {
+        matriz [i] = [];
+        str += '<tr>'; 
+        for (let j = 0; j < colunas; j++) {
+            str += '<td>';
+                
+            // Condição linha 1 
+            if (i == 0) {
+                while(true) {
+                    let num = Math.round(Math.random() * 101);
+                    if(num%2 == 0) {
+                        matriz [i][j] = num;
+                        break;
+                    }
+                }
+            }
+
+            // Condição linha 2
+            if (i == 1) {
+                while(true) {
+                    let num = Math.round(Math.random() * 101);
+                    if(num%3 == 0) {
+                        matriz [i][j] = num;
+                        break;
+                    }
+                }
+            }
+
+            // Condição linha 3
+            if (i == 2) {
+                while(true) {
+                    let num = Math.round(Math.random() * 101);
+                    if(num%4 == 0) {
+                        matriz [i][j] = num;
+                        break;
+                    }
+                }
+            }
+
+            // Condição linha 4
+            if (i == 3) {
+                while(true) {
+                    let num = Math.round(Math.random() * 101);
+                    if(num%5 == 0) {
+                        matriz [i][j] = num;
+                        break;
+                    }
+                }
+            }
+            
+            
+            str += matriz [i][j] + '</td>';
+        }
+        str += '</tr>'; 
+    }
+
+    str += '</table>';
+    tabela.innerHTML = str;
+    
+</script>
+
+</html>

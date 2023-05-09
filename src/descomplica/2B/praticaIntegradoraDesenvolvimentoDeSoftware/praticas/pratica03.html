@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática - 03 - Manipulando o JavaScript e o HTML5</title>
+</head>
+
+<style>
+    body {
+        text-align: center;
+    }
+
+    table {
+        margin: 0 auto;
+    }
+
+    td {
+        border: 1px solid;
+        padding: 8px 12px;
+    }
+
+    .caixa {
+        border: 1px solid;
+        display: inline-block;
+        padding: 8px 12px;
+    }
+
+    p {
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+    }
+
+</style>
+
+<body>
+
+    <h1>Atividade Prática - 03 - Fundamentos do JavaScript</h1>
+
+    <div>
+        <h2>Números sorteados</h2>
+        <div id="sorteados"></div>
+    </div>
+
+    <div>
+        <h2>Maior número sorteado</h2>
+        <div id="maior" class="caixa"></div>
+    </div>
+
+    <div>
+        <h2>Menor número sorteado</h2>
+        <div id="menor" class="caixa"></div>
+    </div>
+
+    <div>
+        <h2>Número médio - Potência com o menor número</h2>
+        <div id="potencia" class="caixa"></div>
+    </div>
+    
+</body>
+
+<script>
+    var n1 = Math.round(Math.random() * 101);
+    var n2 = Math.round(Math.random() * 101);
+    var n3 = Math.round(Math.random() * 101);
+    var sorteado = document.getElementById('sorteados');
+    sorteado.innerHTML = '<table><tr><td>' + n1 + '</td><td>' + n2 + '</td><td>' + n3 + '</td></tr></table>';
+
+    var max = Math.max(n1, n2, n3);
+    var maior = document.getElementById('maior');
+    maior.innerHTML = '<p>' + max + '</p>';
+
+    var min = Math.min(n1, n2, n3);
+    var menor = document.getElementById('menor');
+    menor.innerHTML = '<p>' + min + '</p>';
+
+    var nums = [n1, n2, n3];
+
+    nums = nums.filter(i => i !== max);
+    nums = nums.filter(i => i !== min);
+
+    var pow = Math.pow(nums, min)
+    var potencia = document.getElementById('potencia');
+    potencia.innerHTML = '<p>' + nums + '<sup>' + min + '</sup>' + ' = ' + pow + '</p>';
+</script>
+
+</html>
