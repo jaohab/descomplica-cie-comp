@@ -5,7 +5,7 @@
 -- ✅ - Princípios do comando SQL
 -- ✅ - Prática em um projeto completo
 -- ✅ - Consultas mais complexas
--- Consultas com agrupamento, totalização e ordenação
+-- ✅ - Consultas com agrupamento, totalização e ordenação
 -- Segurança de Dados em SQL
 -- Introdução à Linguagem PL/SQL
 -- Comandos de Decisão, Desvio e Repetição
@@ -81,10 +81,31 @@ VARCHAR2()
 NUMBER()
 DATE
 
-SYSDATE
+-- Funções de tabela
+
+TO_CHAR() -- Converter um valor de data ou numérico em uma string
+TRUNC()   -- Trunca (arredonda) um valor numérico ou uma data para um número inteiro de um determinado tipo de unidade
+LOWER()   -- O conteúdo da tabela será exibido em minúsculo
+UPPER()   -- O conteúdo da tabela será exibido em maiúsculo
+INITCAP() -- O conteúdo da tabela será exibido com a inicial em maiúsculo
+MAX()     -- Retorna o maior valor de um grupo de dados
+MIN()     -- Retorna o menor valor de um grupo de dados
+SUM()     -- Retorna a soma dos valores de um grupo de dados
+AVG()     -- Retorna a média dos valores da tabela
+COUNT()   -- Retorna quantas entradas existem na tabela
+ROLLUP()  -- Calcula o total e subtotal da coluna
+
+
+SYSDATE   -- Retorna a hora do systema operacional
 
 DESCRIBE 
+
+-- Operadores
 
 ADD
 SET
 ON
+IN
+EXISTS
+ANY
+ALL
