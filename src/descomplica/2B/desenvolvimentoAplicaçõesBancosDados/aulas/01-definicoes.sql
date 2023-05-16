@@ -6,7 +6,7 @@
 -- ✅ - Prática em um projeto completo
 -- ✅ - Consultas mais complexas
 -- ✅ - Consultas com agrupamento, totalização e ordenação
--- Segurança de Dados em SQL
+-- ✅ - Segurança de Dados em SQL
 -- Introdução à Linguagem PL/SQL
 -- Comandos de Decisão, Desvio e Repetição
 -- Programas Armazenados: Procedimentos, Funções e Pacotes
