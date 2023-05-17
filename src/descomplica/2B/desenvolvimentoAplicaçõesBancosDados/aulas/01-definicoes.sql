@@ -7,7 +7,7 @@
 -- ✅ - Consultas mais complexas
 -- ✅ - Consultas com agrupamento, totalização e ordenação
 -- ✅ - Segurança de Dados em SQL
--- Introdução à Linguagem PL/SQL
+-- ✅ - Introdução à Linguagem PL/SQL
 -- Comandos de Decisão, Desvio e Repetição
 -- Programas Armazenados: Procedimentos, Funções e Pacotes
 -- Integração SQL - PL/SQL
