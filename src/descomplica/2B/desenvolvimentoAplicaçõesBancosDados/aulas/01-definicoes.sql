@@ -10,7 +10,7 @@
 -- ✅ - Introdução à Linguagem PL/SQL
 -- ✅ - Comandos de Decisão, Desvio e Repetição
 -- ✅ - Programas Armazenados: Procedimentos, Funções e Pacotes
--- Integração SQL - PL/SQL
+-- ✅ - Integração SQL - PL/SQL
 -- Triggers (Gatilhos)
 -- Cursores Implícitos e Explícitos
 
