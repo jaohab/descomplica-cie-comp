@@ -1,20 +1,6 @@
 -- Para executar e testar os scripts
 -- https://livesql.oracle.com/
 
--- AULAS
--- ✅ - Princípios do comando SQL
--- ✅ - Prática em um projeto completo
--- ✅ - Consultas mais complexas
--- ✅ - Consultas com agrupamento, totalização e ordenação
--- ✅ - Segurança de Dados em SQL
--- ✅ - Introdução à Linguagem PL/SQL
--- ✅ - Comandos de Decisão, Desvio e Repetição
--- ✅ - Programas Armazenados: Procedimentos, Funções e Pacotes
--- ✅ - Integração SQL - PL/SQL
--- Triggers (Gatilhos)
--- Cursores Implícitos e Explícitos
-
-
 -- DDL - Data Definition Language (Linguagem de definição de dados)
 
 CREATE
