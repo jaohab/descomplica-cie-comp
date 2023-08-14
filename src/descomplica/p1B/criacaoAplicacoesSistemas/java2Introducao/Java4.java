@@ -1,4 +1,4 @@
-package descomplica.periodo1.criacaoAplicacoesSistemas.java2Introducao;
+package descomplica.p1B.criacaoAplicacoesSistemas.java2Introducao;
 
 public class Java4 {
     

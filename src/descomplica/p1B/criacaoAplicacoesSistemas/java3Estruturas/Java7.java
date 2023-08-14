@@ -1,4 +1,4 @@
-package descomplica.periodo1.criacaoAplicacoesSistemas.java3Estruturas;
+package descomplica.p1B.criacaoAplicacoesSistemas.java3Estruturas;
 
 import javax.swing.*;
 
