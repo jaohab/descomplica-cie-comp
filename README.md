@@ -37,7 +37,7 @@ Repositório de estudos e atividades efetuados durante o curso de Ciência da Co
 
 * ### Matemática Diferencial Aplicada
 
-* ### Programação Extrema
+* ### Programação Extrema - [link](https://github.com/jaohab/descomplica-cie-comp/tree/main/src/descomplica/p2A/programacaoExtrema)
 
 ***
 
@@ -45,6 +45,6 @@ Repositório de estudos e atividades efetuados durante o curso de Ciência da Co
 
 ***
 
-* ### Desenvolvimento de Aplicações de Bancos de Dados - [link](https://github.com/jaohab/descomplica-cie-comp/tree/main/src/descomplica/p2B/desenvolvimentoAplica%C3%A7%C3%B5esBancosDados)
+* ### Desenvolvimento de Aplicações de Bancos de Dados - [link](https://github.com/jaohab/descomplica-cie-comp/tree/main/src/descomplica/p2B/desenvolvimentoAplicacoesBancosDados)
 
 * ### Prática Integradora Desenvolvimento de Software - [link](https://github.com/jaohab/descomplica-cie-comp/tree/main/src/descomplica/p2B/praticaIntegradoraDesenvolvimentoDeSoftware)
