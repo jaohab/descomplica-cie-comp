@@ -1,0 +1,65 @@
+<h1>Aplicação</h1>
+<app-header></app-header>
+
+<!-- -->
+<router-outlet></router-outlet>
+
+<!-- IF - Exemplo -->
+<section>
+    <div *ngIf="clientePremium; else naoPremium" >
+        <h3>Você é um cliente PREMIUM e tem acesso a informações adicionais</h3>
+    </div>
+    
+    <ng-template #naoPremium>
+        <h3>Você é um cliente padrão</h3>
+    </ng-template>
+
+    <hr />
+</section>
+
+<!-- FOR - Exemplo -->
+<section>
+    <ul *ngFor="let valor of valores">
+        <li>{{valor.id}} - {{valor.nome}} - {{valor.descricao}}</li>
+    </ul>
+
+    <hr />
+</section>
+
+<!-- FOR - Adicionando elementos-->
+<section>
+    <label>NOME</label><br />
+    <input [(ngModel)]="nome" />
+
+    <button (click)="adicionar()">Adicionar item</button>
+
+    <hr />
+</section>
+
+<!-- -->
+<ul>
+    <li>Item 1 - {{descricao1}}</li>
+    <li>Item 2 - {{descricao2}}</li>
+</ul>
+
+<label>Digite a descrição do Item 2</label><br />
+<input [(ngModel)]="descricao2" />
+
+<!-- -->
+<section>
+    <h3>Formulário</h3>
+
+    <div>
+        <label>Nome</label><br />
+        <input [(ngModel)]="valor.nome" />
+    </div>
+    <div>
+        <label>Descrição</label><br />
+        <input [(ngModel)]="valor.descricao" />
+    </div>
+</section>
+
+<!-- Binding -->
+<section>
+    <app-binding></app-binding>
+</section>
