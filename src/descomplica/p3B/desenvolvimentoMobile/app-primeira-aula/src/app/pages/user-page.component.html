@@ -1,0 +1,22 @@
+<h2>User Page</h2>
+
+<button (click)="novoUser()">Novo Usuário</button>
+<table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>NOME</td>
+            <td>EMAIL</td>
+            <td></td>
+        </tr>
+    </thead>  
+    
+    <tbody>
+        <tr *ngFor="let user of users | async">
+            <td>{{user.id}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td><a (click)="editar(user)">Editar</a> / <a (click)="deletar(user)">Deletar</a></td>
+        </tr>
+    </tbody>
+</table>

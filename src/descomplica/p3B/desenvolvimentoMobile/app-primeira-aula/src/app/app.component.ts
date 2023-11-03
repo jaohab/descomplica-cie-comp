@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ClientService } from './services/client.service';
 
 @Component({
   selector: 'app-root',
@@ -38,12 +39,24 @@ export class AppComponent {
     descricao: 'DESC 3'
   }]
 
+  umaData = new Date()
+  umDinheiro = 10.5
+  umNome = "Nome Sobrenome"
+
+  constructor(private clientService: ClientService) {
+
+  }
+
   adicionar() {
     this.valores.push({
       id: 4,
       nome: this.nome,
       descricao: 'adicionado'
     })
+  }
+
+  sayHello() {
+    alert(this.clientService.sayHello())
   }
 
 }

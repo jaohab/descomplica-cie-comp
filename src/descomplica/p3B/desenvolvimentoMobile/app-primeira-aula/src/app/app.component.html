@@ -2,6 +2,11 @@
 <app-header></app-header>
 
 <!-- -->
+<a [routerLink]="['pai']">Ir para componente pai</a> <br />
+<a [routerLink]="['rxjs']">Ir para componente RXJS Component</a> <br />
+<a [routerLink]="['listaPessoa']">Ir para Lista Pessoas</a> <br />
+<a [routerLink]="['userPage']">Ir para Users</a> <br />
+
 <router-outlet></router-outlet>
 
 <!-- IF - Exemplo -->
@@ -62,4 +67,22 @@
 <!-- Binding -->
 <section>
     <app-binding></app-binding>
+</section>
+
+<!-- Pipe - Exemplo -->
+<section>
+    <h3>Exemplo Pipe</h3>
+    <p>Data: {{umaData | date}}</p>
+    <p>Data: {{umaData | date:'long'}}</p>
+
+    <p>Currency: {{umDinheiro | currency}}</p>
+    <p>Currency: {{umDinheiro | currency:'BRL'}}</p>
+
+    <p>Uppercase Personalizado: {{umNome | appUppercase}}</p>
+</section>
+
+<!-- Teste de Injeçao de dependência-->
+
+<section>
+    <button (click)="sayHello()">Service - Say Hello</button>
 </section>

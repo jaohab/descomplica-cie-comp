@@ -1,6 +1,5 @@
 <p>Essa é a primeira página de clientes</p>
 
-<ul>
-    <li>Cliente 1</li>
-    <li>Cliente 2</li>
+<ul *ngFor="let client of clients">
+    <li><a [routerLink]="['/client/detalhe', client.id]">{{client.nome}}</a></li>
 </ul>
