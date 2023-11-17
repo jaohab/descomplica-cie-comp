@@ -23,7 +23,12 @@ export class PessoaAddPageComponent {
     id: this.formBuilder.control<number|null>(null),
     nome: ['', Validators.required],
     email: ['', Validators.compose([Validators.required, Validators.email])],
-    hobie: ['']
+    hobie: [''],
+    password: [''],
+    startAt: [''],
+    endAt: [''],
+    cpf: ['', Validators.pattern('[A-Z]*')],
+    cnpj: ['']
   })
 
   constructor(private formBuilder: FormBuilder, private service: PessoaService, private activeRoute: ActivatedRoute) {
@@ -61,7 +66,7 @@ export class PessoaAddPageComponent {
     }
   }
 
-  isError(control: 'nome' | 'email' | 'hobie', validor: string) {
+  isError(control: 'nome' | 'email' | 'hobie' | 'cpf' | 'cnpj', validor: string) {
     return this.formGroup.controls[control].getError(validor) ? true : false
   }
 

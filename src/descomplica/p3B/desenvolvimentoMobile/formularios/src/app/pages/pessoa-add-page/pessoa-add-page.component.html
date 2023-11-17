@@ -61,6 +61,38 @@
             </mat-select>
         </mat-form-field>
     </div>
+
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>CPF</mat-label>
+            <input matInput type="text" placeholder="CPF" name="cpd" formControlName="cpf" mask="000.000.000-00"/>
+            <div>
+                <p class="error" *ngIf="isError('cpf', 'validator')">
+                    Não é um CPF.
+                </p>
+                <p class="error" *ngIf="isError('cpf', 'required')">
+                    CPF é obrigatório.
+                </p>
+            </div>
+        </mat-form-field>
+    </div>
+
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>CNPJ</mat-label>
+            <input matInput type="text" placeholder="CNPJ" name="cnpj" formControlName="cnpj" mask="00.000.000/0000-00"/>
+            <div>
+                <p class="error" *ngIf="isError('cnpj', 'validator')">
+                    Não é um CPF.
+                </p>
+                <p class="error" *ngIf="isError('cnpj', 'required')">
+                    CPF é obrigatório.
+                </p>
+            </div>
+        </mat-form-field>
+    </div>
+
+
     <div>
         <button type="submit" mat-button color="accent" >Salvar</button>
     </div>
