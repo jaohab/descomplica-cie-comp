@@ -1,0 +1,7 @@
+{
+  "name": "praticaPush",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
