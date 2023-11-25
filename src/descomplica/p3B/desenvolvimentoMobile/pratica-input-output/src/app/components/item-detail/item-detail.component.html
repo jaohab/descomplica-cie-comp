@@ -1,0 +1,23 @@
+<div>
+
+    <p><strong>Componente 2 - Item Detail</strong></p>
+
+    <!--
+        Exibe o valor recebido na propriedade {item} pelo @input.
+    -->
+    <p>
+        Data: {{data}}
+    </p>
+
+    <label for="item-input">Adicionar item:</label><br />
+    <input type="text" id="item-input" #newItem>
+
+    <!--
+        O evento (click) está vinculado ao método addNewItem() 
+        na classe do componente filho. O método addNewItem() 
+        toma como argumento o valor da propriedade #newItem.value.
+    -->
+
+    <button type="button" (click)="addNewItem(newItem.value)">Adicionar item para a lista</button>
+
+</div>

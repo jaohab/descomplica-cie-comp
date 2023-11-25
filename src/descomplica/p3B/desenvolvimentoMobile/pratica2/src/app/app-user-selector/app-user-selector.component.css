@@ -1,0 +1,9 @@
+div {
+    background-color:rgb(127, 235, 235);
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    /* margin: auto; */
+    text-align: center;
+    border: 2px solid rgb(52, 122, 122);
+}

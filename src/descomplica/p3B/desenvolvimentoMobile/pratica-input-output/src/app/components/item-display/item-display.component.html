@@ -1,0 +1,7 @@
+<p><strong>Componente 1 - Item Display</strong></p>
+
+<app-item-detail (newItemEvent)="addItem($event)" [data]="dataAtual"></app-item-detail>
+
+<ul>
+    <li *ngFor="let item of items">{{item}}</li>
+</ul>

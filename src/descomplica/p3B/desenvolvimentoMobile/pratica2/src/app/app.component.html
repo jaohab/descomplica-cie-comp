@@ -1,0 +1,7 @@
+<div>
+  <app-calendar-events [startDate]="initialDate" [endDate]="finalDate" (onDateSelect)="handleDateSelect($event)"></app-calendar-events>
+</div>
+<br>
+<div>
+  <app-user-selector [selectedUsers]="selectedUsers" (onUserSelect)="handleUserSelect($event)"></app-user-selector>
+</div>

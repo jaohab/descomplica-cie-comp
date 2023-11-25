@@ -1,0 +1,14 @@
+div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:first-child:before {
+    content: "|";
+}

@@ -1,0 +1,13 @@
+<p><strong>Componente 1 - Função</strong></p>
+
+<button type="button" (click)="incrementarStar()">Incrementar Start</button> 
+<button type="button" (click)="decrementarStar()">Decrementar Start</button> 
+<br />
+<button type="button" (click)="incrementarEnd()">Incrementar End</button>
+<button type="button" (click)="decrementarEnd()">Decrementar End</button>
+<br />
+<button type="button" (click)="reset()">Resetar</button>
+
+<p> Número selecionado: {{selecionado}}</p>
+
+<app-lista #lista [start]="start" [end]="end" (onSelected)="selecionado = $event"></app-lista>
