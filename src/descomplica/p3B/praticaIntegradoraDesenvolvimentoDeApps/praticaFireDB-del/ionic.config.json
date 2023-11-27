@@ -1,0 +1,7 @@
+{
+  "name": "praticaFireDB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

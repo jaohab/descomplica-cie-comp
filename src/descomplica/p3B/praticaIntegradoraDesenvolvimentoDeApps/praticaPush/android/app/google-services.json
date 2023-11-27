@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "478510788631",
+    "project_id": "praticapush",
+    "storage_bucket": "praticapush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478510788631:android:8c932894dd7b16f0d86c52",
+        "android_client_info": {
+          "package_name": "br.com.descomplica.praticaPush"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsIs_aiWER73nXf79dgIIzhbVMK7Wi_eI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

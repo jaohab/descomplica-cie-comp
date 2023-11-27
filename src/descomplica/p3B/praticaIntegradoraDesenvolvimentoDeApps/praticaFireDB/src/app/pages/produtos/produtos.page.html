@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Produtos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let produto of produtos">
+      {{ produto.nome }} - {{ produto.preco }}
+    </ion-item>
+  </ion-list>
+  <ion-button routerLink="/adicionar-produto">Adicionar Produto</ion-button>
+</ion-content>
