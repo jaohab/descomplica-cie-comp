@@ -48,3 +48,25 @@ Repositório de estudos e atividades efetuados durante o curso de Ciência da Co
 * ### Desenvolvimento de Aplicações de Bancos de Dados - [link](https://github.com/jaohab/descomplica-cie-comp/tree/main/src/descomplica/p2B/desenvolvimentoAplicacoesBancosDados)
 
 * ### Prática Integradora Desenvolvimento de Software - [link](https://github.com/jaohab/descomplica-cie-comp/tree/main/src/descomplica/p2B/praticaIntegradoraDesenvolvimentoDeSoftware)
+
+***
+
+## ⚪ 3A - Smart Data Structures
+
+***
+
+* ### Estruturas de Dados para Sistemas Inteligentes - [link](a)
+
+* ### Gerenciamento Avançado de Projetos
+
+* ### Solução de Problemas com Integrais
+
+***
+
+## ⚪ 3B - Mobile Developer
+
+***
+
+* ### Desenvolvimento Mobile - [link](a)
+
+* ### Prática Integradora Desenvolvimento de Apps - [link](a)
